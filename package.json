@@ -1,6 +1,6 @@
 {
   "name": "k7-nedb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "K7 Adapter for using NeDB",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "k7": "1.x.x"
   },
   "devDependencies": {
-    "eslint": "^2.11.x",
+    "eslint": "^3.2.x",
     "code": "3.x.x",
     "hapi": "14.x.x",
     "lab": "10.x.x"
