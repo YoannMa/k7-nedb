@@ -1,0 +1,40 @@
+{
+  "name": "k7-nedb",
+  "version": "0.1.0",
+  "description": "K7 Adapter for using NeDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoannMa/k7-nedb"
+  },
+  "keywords": [
+    "k7",
+    "hapijs",
+    "nedb",
+    "mongodb",
+    "mongo",
+    "hapi"
+  ],
+  "author": "MALLEMANCHE Yoann <yoann.mallemanche@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoannMa/k7-nedb/issues"
+  },
+  "homepage": "https://github.com/YoannMa/k7-nedb#readme",
+  "dependencies": {
+    "glob": "7.0.x",
+    "hoek": "4.0.x",
+    "nedb": "1.8.x",
+    "k7": "1.x.x"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.x",
+    "code": "3.x.x",
+    "hapi": "14.x.x",
+    "lab": "10.x.x"
+  }
+}
